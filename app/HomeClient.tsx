@@ -1,13 +1,214 @@
 "use client";
 
 import React from "react";
-import AboutClient from "./about/AboutClient";
+import Link from "next/link";
+import ProductClient from "./product/ProductClient";
+import HomeBelow from "./components/homeBelow";
 
 export default function HomeClient() {
   return (
-    <div className="w-full font-sans text-zinc-100">
-      {/* About Section imported from AboutClient */}
-      <AboutClient />
+    <div className="min-h-screen flex flex-col bg-gray-50 font-sans text-zinc-800 overflow-x-hidden">
+      {/* Main Content */}
+      <main className="flex-1">
+        {/* Top Hero Section matching design inside bg-gray-50 */}
+        <section className="py-6 sm:py-8 px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto">
+          {/* Light Hero Banner Card */}
+          <div className="relative bg-white rounded-3xl p-6 sm:p-10 lg:p-12 shadow-xl border border-zinc-200 overflow-hidden">
+            {/* Background ambient glow effects */}
+            <div className="absolute top-0 left-1/4 w-80 h-80 bg-blue-100/50 rounded-full blur-3xl pointer-events-none"></div>
+            <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-cyan-100/50 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center relative z-10">
+              {/* Left Column Text & Actions */}
+              <div className="lg:col-span-7 space-y-6 text-left">
+                {/* Pill Badge */}
+                <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold tracking-wider text-blue-700 bg-blue-50 border border-blue-200 uppercase">
+                  <span className="w-4 h-0.5 bg-blue-600 rounded-full"></span>
+                  <span>Hyderabad&apos;s Finest</span>
+                </div>
+
+                {/* Main Title */}
+                <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] text-zinc-900">
+                  <span className="block">Make Every</span>
+                  <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent block mt-1">
+                    Night Special
+                  </span>
+                </h1>
+
+                {/* Description Paragraph */}
+                <p className="text-base sm:text-lg text-zinc-600 max-w-xl leading-relaxed">
+                  Elevated experiences for unforgettable nights. Sophisticated, discreet, and designed exclusively for Hyderabad.
+                </p>
+
+                {/* Action Buttons */}
+                <div className="flex flex-wrap items-center gap-4 pt-2">
+                  <Link
+                    href="/product"
+                    className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 hover:from-blue-700 hover:to-cyan-600 text-white font-bold text-xs sm:text-sm tracking-wider uppercase px-7 py-3.5 rounded-2xl shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:scale-[1.02] active:scale-[0.98] transition-all flex items-center justify-center gap-2 cursor-pointer"
+                  >
+                    <span>View Collection</span>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
+                  </Link>
+
+                  <Link
+                    href="/contact"
+                    className="border border-zinc-200 bg-white hover:bg-zinc-50 hover:border-zinc-300 text-zinc-700 hover:text-zinc-900 font-semibold text-xs sm:text-sm tracking-wider uppercase px-7 py-3.5 rounded-2xl transition-all flex items-center justify-center cursor-pointer shadow-sm"
+                  >
+                    <span>Private Inquiry</span>
+                  </Link>
+                </div>
+
+                {/* Stats Counters Row */}
+                <div className="pt-6 border-t border-zinc-200 flex items-center gap-8 sm:gap-14 text-left">
+                  <div>
+                    <div className="text-2xl sm:text-3xl font-extrabold text-zinc-900">50+</div>
+                    <div className="text-xs text-zinc-500 font-medium mt-0.5">Verified Models</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl sm:text-3xl font-extrabold text-zinc-900">150+</div>
+                    <div className="text-xs text-zinc-500 font-medium mt-0.5">Happy Clients</div>
+                  </div>
+                  <div>
+                    <div className="text-2xl sm:text-3xl font-extrabold text-zinc-900">24/7</div>
+                    <div className="text-xs text-zinc-500 font-medium mt-0.5">Availability</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Right Column Image Card */}
+              <div className="lg:col-span-5 relative flex justify-center">
+                <div className="relative w-full max-w-[280px] sm:max-w-md h-[300px] sm:h-[480px] rounded-2xl sm:rounded-3xl overflow-hidden border border-zinc-200 shadow-2xl shadow-blue-900/10 bg-gray-100 group">
+                  <img
+                    src="/images/homepart.png"
+                    alt="Featured Hyderabad Companion"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity"></div>
+                  <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-white/90 backdrop-blur-md border border-white/40 shadow-lg">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <div className="text-xs font-bold uppercase tracking-wider text-blue-600">Featured</div>
+                        <div className="text-sm sm:text-base font-extrabold text-zinc-900">VIP Models Collection</div>
+                      </div>
+                      <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-300">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                        Available Now
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Product Collection Section */}
+        <section className="bg-[#0c0a09] border-t border-zinc-800">
+          <ProductClient />
+        </section>
+
+        {/* Hyderabad Locations / City Grid */}
+        <section className="py-12 px-4 sm:px-6 lg:px-12 max-w-7xl mx-auto space-y-8">
+          <div className="bg-white border border-zinc-200 rounded-3xl p-6 sm:p-10 shadow-xs space-y-6">
+            <div className="text-center space-y-2">
+              <span className="text-xs font-bold uppercase tracking-widest text-blue-600">
+                EXPLORE BY AREA
+              </span>
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-zinc-900">
+                Hyderabad Top Service Locations
+              </h2>
+              <p className="text-zinc-600 text-sm max-w-xl mx-auto">
+                Select your area to browse verified independent call girls and VIP escorts available for fast outcall delivery.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-2 sm:gap-3 pt-2">
+              {[
+                "Banjara Hills",
+                "Jubilee Hills",
+                "Hitec City",
+                "Gachibowli",
+                "Madhapur",
+                "Kondapur",
+                "Begumpet",
+                "Somajiguda",
+                "Kukatpally",
+                "Financial District",
+                "Manikonda",
+                "Ameerpet",
+                "Secunderabad",
+                "Punjagutta",
+                "Miyapur",
+                "Film Nagar",
+                "Dilsukhnagar",
+                "LB Nagar",
+                "Abids",
+                "Himayatnagar",
+                "Mehdipatnam",
+                "Shamshabad",
+                "Lingampally",
+                "Tolichowki",
+                "Hafeezpet",
+              ].map((cityName) => (
+                <Link
+                  key={cityName}
+                  href={`/product?city=${encodeURIComponent(cityName)}`}
+                  className="bg-white border border-zinc-200/80 hover:border-rose-400 rounded-xl sm:rounded-2xl p-1.5 sm:p-4 flex flex-col items-center justify-center gap-1 sm:gap-2 shadow-2xs hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer group text-center min-w-0"
+                >
+                  <svg className="w-3.5 h-3.5 sm:w-5 sm:h-5 text-rose-500 fill-current group-hover:scale-110 transition-transform shrink-0" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                  </svg>
+                  <span className="text-[10px] sm:text-sm font-semibold text-zinc-800 group-hover:text-rose-500 transition-colors leading-tight truncate w-full">
+                    {cityName}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Category Quick Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Link href="/product" className="block">
+              <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
+                <h3 className="text-xl font-black text-rose-500 flex items-center justify-center gap-2">
+                  <span className="text-xl">👄</span> Call Girls Hyderabad
+                </h3>
+              </div>
+            </Link>
+
+            <Link href="/product" className="block">
+              <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
+                <h3 className="text-xl font-black text-rose-500 flex items-center justify-center gap-2">
+                  <span className="text-xl">🧘</span> Massages Hyderabad
+                </h3>
+              </div>
+            </Link>
+
+            <Link href="/product" className="block">
+              <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
+                <h3 className="text-rose-500 font-black text-xl flex items-center justify-center gap-2">
+                  <span className="text-xl">🥸</span> Male Escorts Hyderabad
+                </h3>
+              </div>
+            </Link>
+
+            <Link href="/product" className="block">
+              <div className="bg-white rounded-2xl p-5 shadow-xs border border-zinc-200 text-center hover:border-rose-500 transition-all cursor-pointer">
+                <h3 className="text-rose-500 font-black text-xl flex items-center justify-center gap-2">
+                  <span>Transsexual Hyderabad</span>
+                </h3>
+              </div>
+            </Link>
+          </div>
+        </section>
+
+        {/* Detailed Information Section (HomeBelow) */}
+        <div className="bg-white text-zinc-800 border-t border-zinc-200">
+          <HomeBelow />
+        </div>
+      </main>
     </div>
   );
 }

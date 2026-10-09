@@ -102,6 +102,50 @@ export default function HomeBelow() {
           </div>
         </div>
       </section>
+
+      {/* Hyderabad Service Areas Section */}
+      <section className="bg-white border border-zinc-200 rounded-3xl p-6 sm:p-10 shadow-xs space-y-6">
+        <div className="space-y-2 text-center">
+          <span className="text-xs font-bold uppercase tracking-widest text-blue-600">
+            LOCALITIES WE COVER
+          </span>
+          <h3 className="text-xl sm:text-2xl font-extrabold text-zinc-900">
+            24/7 Outcall Services Across All Major Hyderabad Localities
+          </h3>
+          <p className="text-zinc-600 text-xs sm:text-sm max-w-2xl mx-auto">
+            Our verified escort companions provide discreet, fast doorstep arrival (20-30 mins) across all luxury hotels and private apartments in Hyderabad.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 text-xs">
+          {[
+            { name: "Banjara Hills", desc: "5-Star Hotels & VIP Suites" },
+            { name: "Jubilee Hills", desc: "Luxury Villas & Residencies" },
+            { name: "HITEC City", desc: "IT Hub & Corporate Stays" },
+            { name: "Gachibowli", desc: "Financial District & Hotels" },
+            { name: "Madhapur", desc: "Cyber Towers & Tech Parks" },
+            { name: "Kondapur", desc: "Premium Apartments" },
+            { name: "Begumpet", desc: "Airport & Central City" },
+            { name: "Somajiguda", desc: "Raj Bhavan Road" },
+            { name: "Kukatpally", desc: "Housing Board & Malls" },
+            { name: "Secunderabad", desc: "Club & Cantt Areas" },
+            { name: "Manikonda", desc: "Puppalaguda & Lanco Hills" },
+            { name: "Financial District", desc: "Nanakramguda Stays" },
+          ].map((loc) => (
+            <Link
+              key={loc.name}
+              href="/product"
+              className="p-3 rounded-2xl bg-zinc-50 border border-zinc-200/80 hover:bg-blue-50/50 hover:border-blue-300 transition-all group"
+            >
+              <div className="font-bold text-zinc-900 group-hover:text-blue-600 flex items-center justify-between">
+                <span>📍 {loc.name}</span>
+                <span className="text-blue-500 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
+              </div>
+              <div className="text-[11px] text-zinc-500 mt-0.5">{loc.desc}</div>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

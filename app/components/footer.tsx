@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { trackWhatsAppClick } from "../utils/trackWhatsapp";
+import { initialProductsData } from "../product/productsData";
 
 export default function Footer() {
   return (
@@ -84,6 +85,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/helpSupport"
+                  className="hover:text-rose-400 transition-colors"
+                >
+                  Help & Support
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/privacy-policy"
                   className="hover:text-rose-400 transition-colors"
                 >
@@ -98,7 +107,14 @@ export default function Footer() {
                   Security
                 </Link>
               </li>
-
+              <li>
+                <Link
+                  href="/terms-condition"
+                  className="hover:text-rose-400 transition-colors"
+                >
+                  Terms & Conditions
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -157,6 +173,12 @@ export default function Footer() {
                 <span>Frequently Asked Questions →</span>
               </Link>
               <Link
+                href="/helpSupport"
+                className="text-zinc-400 hover:text-rose-400 transition-colors flex items-center gap-1.5 text-sm"
+              >
+                <span>24/7 Help & Support →</span>
+              </Link>
+              <Link
                 href="/privacy-policy"
                 className="text-zinc-400 hover:text-rose-400 transition-colors flex items-center gap-1.5 text-sm"
               >
@@ -175,7 +197,24 @@ export default function Footer() {
                 <span>Terms & Conditions →</span>
               </Link>
             </div>
+          </div>
+        </div>
 
+        {/* Hyderabad Locations & Model Profiles Directory (SEO Internal Links) */}
+        <div className="border-t border-zinc-900 pt-8 pb-4">
+          <h4 className="text-xs uppercase font-bold tracking-wider text-zinc-300 mb-3">
+            Verified Hyderabad Call Girls & VIP Escorts by Area
+          </h4>
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-zinc-400">
+            {initialProductsData.map((item) => (
+              <Link
+                key={item.id}
+                href={`/product/${item.id}`}
+                className="hover:text-rose-400 transition-colors whitespace-nowrap"
+              >
+                {item.name} ({item.area || item.city})
+              </Link>
+            ))}
           </div>
         </div>
 
