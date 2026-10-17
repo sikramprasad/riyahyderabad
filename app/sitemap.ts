@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { initialProductsData } from "./product/productsData";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
   const currentDate = new Date().toISOString();
 
   // Static routes

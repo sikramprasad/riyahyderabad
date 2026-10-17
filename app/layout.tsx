@@ -21,7 +21,7 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "escort service in Hyderabad",
     "Hyderabad escort services",
     "Riya escort service",
-    "calgirlriya",
+    "riyaescortservices",
     "call girl Riya",
     "independent escorts Hyderabad",
     "VIP escorts Hyderabad",
@@ -136,7 +136,7 @@ const jsonLd = {
       "@id": `${siteUrl}/#website`,
       "url": siteUrl,
       "name": "Riya Escorts Hyderabad",
-      "alternateName": ["CalGirl Riya", "Riya Hyderabad Escorts", "Call Girl Hyderabad"],
+      "alternateName": ["Riya Escort Services", "Riya Hyderabad Escorts", "Call Girl Hyderabad"],
       "description":
         "Premier Escort Service and Call Girls in Hyderabad. 100% verified independent companions available 24/7.",
       "publisher": {
@@ -156,13 +156,13 @@ const jsonLd = {
       "@type": "LocalBusiness",
       "@id": `${siteUrl}/#organization`,
       "name": "Riya Escorts Hyderabad",
-      "alternateName": "CalGirl Riya",
+      "alternateName": "Riya Escort Services",
       "url": siteUrl,
       "logo": `${siteUrl}/icon.png`,
       "image": `${siteUrl}/images/homepart.png`,
       "description":
         "Verified VIP Call Girls & Escort Service in Hyderabad with direct WhatsApp and phone booking.",
-      "telephone": "+91-8294107610",
+      "telephone": "+91-9004067952",
       "priceRange": "₹₹₹",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Online",
@@ -224,7 +224,7 @@ const jsonLd = {
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-8294107610",
+        "telephone": "+91-9004067952",
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": ["English", "Hindi", "Telugu"],
@@ -240,7 +240,7 @@ const jsonLd = {
           "acceptedAnswer": {
             "@type": "Answer",
             "text":
-              "Booking is instant and 100% confidential. Browse our verified models gallery on calgirlriya, select your preferred companion, and click the WhatsApp or Call button (+91 82941 07610) to confirm your booking within minutes.",
+              "Booking is instant and 100% confidential. Browse our verified models gallery on riyaescortservices, select your preferred companion, and click the WhatsApp or Call button (+91 90040 67952) to confirm your booking within minutes.",
           },
         },
         {

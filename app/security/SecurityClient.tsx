@@ -178,7 +178,7 @@ export default function SecurityClient() {
                 Go to Contact & Booking →
               </Link>
               <a
-                href="https://wa.me/918294107610"
+                href="https://wa.me/919004067952"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl text-xs sm:text-sm font-semibold text-emerald-400 bg-emerald-950/30 border border-emerald-500/20 hover:bg-emerald-900/40 transition-colors"
@@ -186,10 +186,10 @@ export default function SecurityClient() {
                 <span>💬</span> WhatsApp Direct Support
               </a>
               <a
-                href="tel:+918294107610"
+                href="tel:+919004067952"
                 className="flex items-center justify-center gap-2 w-full py-2.5 px-4 rounded-xl text-xs sm:text-sm font-semibold text-zinc-200 bg-zinc-800 hover:bg-zinc-700 hover:text-white transition-colors"
               >
-                <span>📞</span> Call +91 82941 07610
+                <span>📞</span> Call +91 90040 67952
               </a>
             </div>
           </div>

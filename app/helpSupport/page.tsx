@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import HelpSupportClient from "./HelpSupportClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Help & Support - Riya Escorts Hyderabad | 24/7 Customer Assistance",

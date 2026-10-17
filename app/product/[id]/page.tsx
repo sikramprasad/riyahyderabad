@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     product.metaDescription ||
     `Book ${product.name}, a verified ${product.age}-year-old VIP escort in ${areaName}, Hyderabad (PIN: ${product.postalCode || "500034"}). Available 24/7 for 5-star hotel & home outcalls with 100% genuine photos & privacy.`;
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
   const canonicalUrl = `${siteUrl}/product/${product.id}`;
   const lat = product.latitude || 17.385;
   const lng = product.longitude || 78.4867;
@@ -115,7 +115,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
     notFound();
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
   const canonicalUrl = `${siteUrl}/product/${product.id}`;
   const areaName = product.area || product.city.replace("Hyderabad / ", "");
   const lat = product.latitude || 17.385;

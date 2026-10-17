@@ -6,7 +6,7 @@ import PhoneIcon from "./PhoneIcon";
 import { trackWhatsAppClick, trackCallClick } from "../utils/trackWhatsapp";
 
 export default function FloatingWhatsApp() {
-  const rawNumber = "8294107610";
+  const rawNumber = "9004067952";
   const formattedPhone = `+91 ${rawNumber.slice(0, 5)} ${rawNumber.slice(5)}`;
   const whatsappUrl = `https://wa.me/91${rawNumber}?text=${encodeURIComponent(
     "Hi Riya Escorts Hyderabad, I am interested in booking a verified companion. Please share details."

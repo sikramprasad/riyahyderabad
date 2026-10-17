@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import WhatsAppIcon from "../components/WhatsAppIcon";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Contact Us - Call Girls Services in Hyderabad Escorts Available 24/7",
@@ -104,7 +104,7 @@ export default function ContactPage() {
 
             <div className="space-y-3">
               <a
-                href="tel:+918294107610"
+                href="tel:+919004067952"
                 className="flex items-center justify-between p-3.5 rounded-xl bg-zinc-900/80 border border-zinc-800 hover:border-rose-500/50 hover:bg-zinc-850 transition-all group"
               >
                 <div className="flex items-center gap-3">
@@ -114,7 +114,7 @@ export default function ContactPage() {
                   <div>
                     <div className="text-xs text-zinc-400">Call 24/7</div>
                     <div className="text-sm font-bold text-white group-hover:text-rose-400">
-                      +91 82941 07610
+                      +91 90040 67952
                     </div>
                   </div>
                 </div>
@@ -124,7 +124,7 @@ export default function ContactPage() {
               </a>
 
               <a
-                href="https://wa.me/918294107610"
+                href="https://wa.me/919004067952"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-between p-3.5 rounded-xl bg-zinc-900/80 border border-zinc-800 hover:border-[#25D366]/50 hover:bg-zinc-850 transition-all group"
@@ -234,7 +234,7 @@ export default function ContactPage() {
             </div>
             <div className="mt-4 pt-4 border-t border-zinc-800 flex justify-between items-center text-xs">
               <span className="text-emerald-400 font-semibold">Budget Friendly</span>
-              <a href="tel:+918294107610" className="text-rose-400 hover:underline">
+              <a href="tel:+919004067952" className="text-rose-400 hover:underline">
                 Enquire Now →
               </a>
             </div>
@@ -270,7 +270,7 @@ export default function ContactPage() {
             </div>
             <div className="mt-4 pt-4 border-t border-zinc-800 flex justify-between items-center text-xs">
               <span className="text-amber-400 font-semibold">VIP High-Class</span>
-              <a href="tel:+918294107610" className="text-rose-400 hover:underline">
+              <a href="tel:+919004067952" className="text-rose-400 hover:underline">
                 Enquire Now →
               </a>
             </div>
@@ -304,7 +304,7 @@ export default function ContactPage() {
             </div>
             <div className="mt-4 pt-4 border-t border-zinc-800 flex justify-between items-center text-xs">
               <span className="text-pink-400 font-semibold">Sensual & Relaxing</span>
-              <a href="tel:+918294107610" className="text-rose-400 hover:underline">
+              <a href="tel:+919004067952" className="text-rose-400 hover:underline">
                 Enquire Now →
               </a>
             </div>
@@ -338,7 +338,7 @@ export default function ContactPage() {
             </div>
             <div className="mt-4 pt-4 border-t border-zinc-800 flex justify-between items-center text-xs">
               <span className="text-purple-400 font-semibold">Party & Events</span>
-              <a href="tel:+918294107610" className="text-rose-400 hover:underline">
+              <a href="tel:+919004067952" className="text-rose-400 hover:underline">
                 Enquire Now →
               </a>
             </div>
@@ -371,7 +371,7 @@ export default function ContactPage() {
             </div>
             <div className="mt-4 pt-4 border-t border-zinc-800 flex justify-between items-center text-xs">
               <span className="text-rose-400 font-semibold">100% Satisfaction</span>
-              <a href="tel:+918294107610" className="text-rose-400 hover:underline">
+              <a href="tel:+919004067952" className="text-rose-400 hover:underline">
                 Enquire Now →
               </a>
             </div>
@@ -404,7 +404,7 @@ export default function ContactPage() {
             </div>
             <div className="mt-4 pt-4 border-t border-zinc-800 flex justify-between items-center text-xs">
               <span className="text-emerald-400 font-semibold">24/7 Booking</span>
-              <a href="tel:+918294107610" className="text-rose-400 hover:underline">
+              <a href="tel:+919004067952" className="text-rose-400 hover:underline">
                 Enquire Now →
               </a>
             </div>

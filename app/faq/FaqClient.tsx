@@ -10,7 +10,7 @@ const faqs = [
     category: "Booking & Availability",
     question: "How do I book an escort in Hyderabad?",
     answer:
-      "You can book directly via WhatsApp, direct phone call (+91 8294107610), or through our Contact page. Simply let us know your preferred companion category, meeting date/time, and hotel or residential location in Hyderabad. We confirm all bookings discreetly within minutes.",
+      "You can book directly via WhatsApp, direct phone call (+91 9004067952), or through our Contact page. Simply let us know your preferred companion category, meeting date/time, and hotel or residential location in Hyderabad. We confirm all bookings discreetly within minutes.",
   },
   {
     category: "Booking & Availability",
@@ -221,14 +221,14 @@ export default function FaqClient() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/918294107610"
+              href="https://wa.me/919004067952"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() =>
                 trackWhatsAppClick({
                   name: "FAQ Page Inquiry",
                   city: "Hyderabad",
-                  whatsappNumber: "+918294107610",
+                  whatsappNumber: "+919004067952",
                 })
               }
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-sm transition-all shadow-xl shadow-emerald-600/30 hover:scale-105"
@@ -237,10 +237,10 @@ export default function FaqClient() {
               <span>Ask on WhatsApp</span>
             </a>
             <a
-              href="tel:+918294107610"
+              href="tel:+919004067952"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-gradient-to-r from-rose-600 to-pink-600 hover:from-rose-500 hover:to-pink-500 text-white font-bold text-sm transition-all shadow-xl shadow-rose-600/30 hover:scale-105"
             >
-              📞 Call: +91 8294107610
+              📞 Call: +91 9004067952
             </a>
             <Link
               href="/product"

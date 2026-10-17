@@ -8,8 +8,8 @@ export async function POST(request: Request) {
       name = "VIP Client Inquiry",
       city = "Hyderabad",
       actionType = "WhatsApp",
-      targetNumber = "+918294107610",
-      site = "calgirlriya",
+      targetNumber = "+919004067952",
+      site = "riyaescortservices",
       pageUrl = "",
       timestamp = new Date().toISOString(),
     } = body;
@@ -38,14 +38,14 @@ export async function POST(request: Request) {
       const themeColor = isCall ? "#ff2b54" : "#25D366";
 
       const mailOptions = {
-        from: `"calgirlriya Alert" <${emailUser}>`,
+        from: `"riyaescortservices Alert" <${emailUser}>`,
         to: emailUser,
-        subject: `${icon} [${actionType.toUpperCase()}] New Lead: ${name} (${city}) - calgirlriya`,
+        subject: `${icon} [${actionType.toUpperCase()}] New Lead: ${name} (${city}) - riyaescortservices`,
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #0c0a09; color: #ffffff; padding: 24px; border-radius: 16px; border: 1px solid #27272a;">
             <div style="text-align: center; border-bottom: 1px solid #27272a; padding-bottom: 16px; margin-bottom: 20px;">
               <h2 style="color: ${themeColor}; margin: 0; font-size: 24px;">${icon} ${actionTitle}</h2>
-              <p style="color: #a1a1aa; font-size: 14px; margin-top: 4px;">A customer just clicked to connect on <strong>calgirlriya.in</strong></p>
+              <p style="color: #a1a1aa; font-size: 14px; margin-top: 4px;">A customer just clicked to connect on <strong>riyaescortservices.com</strong></p>
             </div>
 
             <div style="background-color: #18181b; border: 1px solid #3f3f46; border-radius: 12px; padding: 20px; margin-bottom: 20px;">

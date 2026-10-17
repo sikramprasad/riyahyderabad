@@ -87,7 +87,7 @@ export default function HomeBelow() {
             </div>
             <h4 className="text-lg font-bold text-white">Contact via WhatsApp</h4>
             <p className="text-xs sm:text-sm text-zinc-300">
-              Click the WhatsApp button or call +91 82941 07610 with your location details.
+              Click the WhatsApp button or call +91 90040 67952 with your location details.
             </p>
           </div>
 

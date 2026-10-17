@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import AboutClient from "./AboutClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "About Us - Riya Escorts Hyderabad | #1 Premier VIP Escort Agency",

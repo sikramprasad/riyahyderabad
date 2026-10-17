@@ -24,7 +24,7 @@ export function trackWhatsAppClick(data: WhatsAppClickData = {}): void {
   sendTrackingEvent({
     name: data.name || "VIP Model WhatsApp Inquiry",
     city: data.city || "Hyderabad",
-    targetNumber: data.whatsappNumber || data.number || "+918294107610",
+    targetNumber: data.whatsappNumber || data.number || "+919004067952",
     actionType: "WhatsApp",
   });
 }
@@ -36,7 +36,7 @@ export function trackCallClick(data: WhatsAppClickData = {}): void {
   sendTrackingEvent({
     name: data.name || "Direct Phone Call Inquiry",
     city: data.city || "Hyderabad",
-    targetNumber: data.number || data.whatsappNumber || "+918294107610",
+    targetNumber: data.number || data.whatsappNumber || "+919004067952",
     actionType: "Call",
   });
 }
@@ -58,7 +58,7 @@ function sendTrackingEvent({
       city,
       actionType,
       targetNumber,
-      site: "calgirlriya",
+      site: "riyaescortservices",
       pageUrl: typeof window !== "undefined" ? window.location.href : "",
       timestamp: new Date().toISOString(),
     };
@@ -102,11 +102,11 @@ function sendTrackingEvent({
 export function createWhatsAppLink(
   name: string = "VIP Escort",
   city: string = "Hyderabad",
-  whatsappNumber: string = "+918294107610"
+  whatsappNumber: string = "+919004067952"
 ): string {
   const cleanNumber = whatsappNumber.replace(/[^0-9]/g, "");
   const message = encodeURIComponent(
-    `Hi, I am interested in booking ${name} from ${city} on calgirlriya. Please share availability and live photos.`
+    `Hi, I am interested in booking ${name} from ${city} on riyaescortservices. Please share availability and live photos.`
   );
   return `https://wa.me/${cleanNumber}?text=${message}`;
 }

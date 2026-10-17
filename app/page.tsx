@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import HomeClient from "./HomeClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Riya Escorts Hyderabad | #1 VIP Call Girls & Escorts Service (24/7 Available)",
@@ -57,7 +57,7 @@ export default function Page() {
         url: siteUrl,
         logo: `${siteUrl}/favicon.ico.png`,
         image: `${siteUrl}/images/homepart.png`,
-        telephone: "+918294107610",
+        telephone: "+919004067952",
         priceRange: "₹₹₹",
         currenciesAccepted: "INR",
         paymentAccepted: "Cash, UPI, Online",

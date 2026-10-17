@@ -186,14 +186,14 @@ export default function HelpSupportClient() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://wa.me/918294107610"
+              href="https://wa.me/919004067952"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() =>
                 trackWhatsAppClick({
                   name: "Help Support Page",
                   city: "Hyderabad",
-                  whatsappNumber: "+918294107610",
+                  whatsappNumber: "+919004067952",
                 })
               }
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-sm transition-all shadow-lg shadow-emerald-600/30"
@@ -202,7 +202,7 @@ export default function HelpSupportClient() {
               <span>Chat on WhatsApp</span>
             </a>
             <a
-              href="tel:+918294107610"
+              href="tel:+919004067952"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold text-sm transition-all shadow-lg shadow-rose-600/30"
             >
               📞 Call Now — 24/7

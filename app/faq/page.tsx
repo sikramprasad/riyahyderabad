@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import FaqClient from "./FaqClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions (FAQ) | Riya Escorts Hyderabad",
@@ -29,7 +29,7 @@ export default function FaqPage() {
         "name": "How do I book an escort in Hyderabad?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can book directly via WhatsApp or direct phone call (+91 8294107610). Share your companion preference, time, and location for immediate confirmation.",
+          "text": "You can book directly via WhatsApp or direct phone call (+91 9004067952). Share your companion preference, time, and location for immediate confirmation.",
         },
       },
       {

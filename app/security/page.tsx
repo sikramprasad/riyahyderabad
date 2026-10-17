@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import SecurityClient from "./SecurityClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.calgirlriya.in";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.riyaescortservices.com";
 
 export const metadata: Metadata = {
   title: "Security & Trust - Riya Escorts Hyderabad | 100% Confidentiality Assured",
